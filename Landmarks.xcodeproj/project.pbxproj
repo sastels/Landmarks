@@ -13,6 +13,8 @@
 		013ADFA824132B8E00A70DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013ADFA724132B8E00A70DCE /* Assets.xcassets */; };
 		013ADFAB24132B8E00A70DCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013ADFAA24132B8E00A70DCE /* Preview Assets.xcassets */; };
 		013ADFAE24132B8E00A70DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013ADFAC24132B8E00A70DCE /* LaunchScreen.storyboard */; };
+		013ADFB82413329300A70DCE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013ADFB72413329300A70DCE /* CircleImage.swift */; };
+		013ADFBA2413349000A70DCE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013ADFB92413349000A70DCE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		013ADFAA24132B8E00A70DCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		013ADFAD24132B8E00A70DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		013ADFAF24132B8E00A70DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013ADFB72413329300A70DCE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		013ADFB92413349000A70DCE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		013ADFA024132B8D00A70DCE /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				013ADFB72413329300A70DCE /* CircleImage.swift */,
+				013ADFB92413349000A70DCE /* MapView.swift */,
 				013ADFA124132B8D00A70DCE /* AppDelegate.swift */,
 				013ADFA324132B8D00A70DCE /* SceneDelegate.swift */,
 				013ADFA524132B8D00A70DCE /* ContentView.swift */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				013ADFA224132B8D00A70DCE /* AppDelegate.swift in Sources */,
+				013ADFB82413329300A70DCE /* CircleImage.swift in Sources */,
+				013ADFBA2413349000A70DCE /* MapView.swift in Sources */,
 				013ADFA424132B8D00A70DCE /* SceneDelegate.swift in Sources */,
 				013ADFA624132B8D00A70DCE /* ContentView.swift in Sources */,
 			);
